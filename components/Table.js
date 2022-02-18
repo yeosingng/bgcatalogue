@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
 import styled from 'styled-components';
 import useWindowDimensions from '../hooks/useWindowDimensions';
+import { useGameContext } from '../context/GameContext';
 
 const MOBILE_COLUMN_NUM = 2;
 const TABLET_COLUMN_NUM = 3;
@@ -12,15 +12,12 @@ const TableContainer = styled.div`
   height: 100%;
   width: 100%;
   padding: 1rem;
+  grid-template-columns: ${props => `repeat(${props.numColumns}, 1fr)`};
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
   grid-gap: 1rem;
 `
 
 const TableSelection = styled.div`
-  grid-column-start: ${props => props.columnStart};
-  grid-column-end: ${props => props.columnEnd};
-  grid-row-start: ${props => props.rowStart};
-  grid-row-end: ${props => props.rowEnd};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,6 +48,7 @@ const GameTitle = styled.div`
 `
 
 const Table = ({ collection }) => {
+  const { setSelectedGame } = useGameContext();
   const { isMobile, isTablet } = useWindowDimensions();
 
   let numColumns = DESKTOP_COLUMN_NUM;
@@ -65,25 +63,8 @@ const Table = ({ collection }) => {
   return (
     <TableContainer numRows={numRows} numColumns={numColumns}>
       {collection.map((game, i) => {
-        let itemRowStart;
-        let itemRowEnd;
-        let itemColumnStart;
-        let itemColumnEnd;
-
-        itemRowStart = Math.floor(i / numColumns) + 1;
-        itemRowEnd = itemRowStart + 1;
-
-        itemColumnStart = (i % numColumns) + 1;
-        itemColumnEnd = itemColumnStart + 1;
-
         return (
-          <TableSelection
-            key={game.id}
-            rowStart={itemRowStart}
-            rowEnd={itemRowEnd}
-            columnStart={itemColumnStart}
-            columnEnd={itemColumnEnd}
-          >
+          <TableSelection key={i} onClick={() => setSelectedGame(game)}>
             <ItemContainer>
               <ItemImageContainer>
                 <ItemImage src={game.thumbnail} />

@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Table from '../components/Table';
 import Header from '../components/Header';
 import styled from 'styled-components';
+import Modal from 'react-modal';
+import GameContextProvider from '../context/GameContext';
+import GameModal from '../components/GameModal';
 
 const Container = styled.div`
   height: 100%;
@@ -20,9 +23,10 @@ const Main = styled.main`
   flex: 1;
 `
 
+Modal.setAppElement('#__next');
+
 export default function Home(props) {
   const { collection } = props;
-
   return (
     <Container>
       <Head>
@@ -33,8 +37,10 @@ export default function Home(props) {
 
       <Main>
         <Header />
-
-        <Table collection={collection} />
+        <GameContextProvider>
+          <Table collection={collection} />
+          <GameModal />
+        </GameContextProvider>
       </Main>
     </Container>
   )

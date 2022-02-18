@@ -30,7 +30,8 @@
             "Set Collection",
             "Sudden Death Ending",
             "Tug of War"
-        ]
+        ],
+        "weight": "2.23"
     },
     {
         "gameId": 270633,
@@ -64,7 +65,8 @@
             "Hand Management",
             "Variable Phase Order",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "2.91"
     },
     {
         "gameId": 247367,
@@ -94,7 +96,8 @@
         "mechanics": [
             "Card Play Conflict Resolution",
             "Hand Management"
-        ]
+        ],
+        "weight": "1.79"
     },
     {
         "gameId": 224517,
@@ -130,7 +133,8 @@
             "Tech Trees / Tech Tracks",
             "Turn Order: Stat-Based",
             "Variable Set-up"
-        ]
+        ],
+        "weight": "3.90"
     },
     {
         "gameId": 307305,
@@ -164,7 +168,8 @@
             "Real-Time",
             "Solo / Solitaire Game",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "2.06"
     },
     {
         "gameId": 286537,
@@ -200,7 +205,8 @@
             "Solo / Solitaire Game",
             "Three Dimensional Movement",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "2.54"
     },
     {
         "gameId": 283155,
@@ -235,7 +241,8 @@
             "Set Collection",
             "Solo / Solitaire Game",
             "Tile Placement"
-        ]
+        ],
+        "weight": "2.20"
     },
     {
         "gameId": 260605,
@@ -257,99 +264,7 @@
         "bggRating": 7.13218,
         "averageRating": 7.64025,
         "rank": 303,
-        "designers": [
-          "Steffen Bogen"
-        ],
-        "publishers": [
-          "eggertspiele",
-          "Choo Choo Games",
-          "Ediciones MasQueOca",
-          "Galápagos Jogos",
-          "Ghenos Games",
-          "Hobby Japan",
-          "Korea Boardgames Co., Ltd.",
-          "Lucrum Games",
-          "Pegasus Spiele",
-          "Piatnik",
-          "Pretzel Games",
-          "Swan Panasia Co., Ltd.",
-          "Tower Tactic Games",
-          "uplay.it edizioni"
-        ],
-        "artists": [
-          "Chris Quilliams"
-        ],
-        "playerPollResults": [
-          {
-            "numPlayers": 1,
-            "best": 0,
-            "recommended": 0,
-            "notRecommended": 49,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 2,
-            "best": 0,
-            "recommended": 11,
-            "notRecommended": 44,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 3,
-            "best": 1,
-            "recommended": 35,
-            "notRecommended": 21,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 4,
-            "best": 16,
-            "recommended": 49,
-            "notRecommended": 0,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 5,
-            "best": 43,
-            "recommended": 23,
-            "notRecommended": 0,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 6,
-            "best": 37,
-            "recommended": 23,
-            "notRecommended": 1,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 7,
-            "best": 13,
-            "recommended": 31,
-            "notRecommended": 5,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 8,
-            "best": 12,
-            "recommended": 27,
-            "notRecommended": 9,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 8,
-            "best": 1,
-            "recommended": 2,
-            "notRecommended": 31,
-            "numPlayersIsAndHigher": true
-          }
-        ],
-        "expansions": [
-          {
-            "name": "Super Power",
-            "gameId": 293240
-          }
-        ]
+        "weight": "1.47"
     },
     {
         "gameId": 271320,
@@ -384,7 +299,8 @@
             "Team-Based Game",
             "Tile Placement",
             "Worker Placement with Dice Workers"
-        ]
+        ],
+        "weight": "2.98"
     },
     {
         "gameId": 47,
@@ -420,7 +336,8 @@
             "Tile Placement",
             "Trading",
             "Victory Points as a Resource"
-        ]
+        ],
+        "weight": "2.27"
     },
     {
         "gameId": 178900,
@@ -452,7 +369,8 @@
             "Memory",
             "Push Your Luck",
             "Team-Based Game"
-        ]
+        ],
+        "weight": "1.28"
     },
     {
         "gameId": 39463,
@@ -491,7 +409,8 @@
             "Take That",
             "Trading",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "2.58"
     },
     {
         "gameId": 284083,
@@ -524,7 +443,8 @@
             "Hand Management",
             "Scenario / Mission / Campaign Game",
             "Trick-taking"
-        ]
+        ],
+        "weight": "1.99"
     },
     {
         "gameId": 246784,
@@ -556,7 +476,8 @@
             "Hexagon Grid",
             "Modular Board",
             "Pattern Recognition"
-        ]
+        ],
+        "weight": "2.23"
     },
     {
         "gameId": 156129,
@@ -593,7 +514,8 @@
             "Team-Based Game",
             "Traitor Game",
             "Variable Set-up"
-        ]
+        ],
+        "weight": "1.59"
     },
     {
         "gameId": 225694,
@@ -624,7 +546,8 @@
             "Communication Limits",
             "Targeted Clues",
             "Team-Based Game"
-        ]
+        ],
+        "weight": "1.79"
     },
     {
         "gameId": 169654,
@@ -655,7 +578,8 @@
             "Pick-up and Deliver",
             "Push Your Luck",
             "Roll / Spin and Move"
-        ]
+        ],
+        "weight": "1.17"
     },
     {
         "gameId": 316554,
@@ -692,7 +616,8 @@
             "Turn Order: Progressive",
             "Variable Player Powers",
             "Worker Placement"
-        ]
+        ],
+        "weight": "2.98"
     },
     {
         "gameId": 249381,
@@ -715,60 +640,7 @@
         "bggRating": 6.76024,
         "averageRating": 7.46797,
         "rank": 675,
-        "designers": [
-          "Klaus Zoch"
-        ],
-        "publishers": [
-          "Capstone Games"
-        ],
-        "artists": [
-          "Daan van Paridon",
-          "Thijs van Paridon"
-        ],
-        "playerPollResults": [
-          {
-            "numPlayers": 1,
-            "best": 0,
-            "recommended": 0,
-            "notRecommended": 29,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 2,
-            "best": 0,
-            "recommended": 5,
-            "notRecommended": 28,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 3,
-            "best": 4,
-            "recommended": 25,
-            "notRecommended": 4,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 4,
-            "best": 26,
-            "recommended": 11,
-            "notRecommended": 0,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 5,
-            "best": 8,
-            "recommended": 21,
-            "notRecommended": 8,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 5,
-            "best": 0,
-            "recommended": 0,
-            "notRecommended": 18,
-            "numPlayersIsAndHigher": true
-          }
-        ]
+        "weight": "2.35"
     },
     {
         "gameId": 135779,
@@ -800,7 +672,8 @@
             "Line Drawing",
             "Role Playing",
             "Targeted Clues"
-        ]
+        ],
+        "weight": "1.15"
     },
     {
         "gameId": 177736,
@@ -837,7 +710,8 @@
             "Tile Placement",
             "Turn Order: Pass Order",
             "Worker Placement"
-        ]
+        ],
+        "weight": "3.85"
     },
     {
         "gameId": 221965,
@@ -867,7 +741,8 @@
         "mechanics": [
             "Hand Management",
             "Trick-taking"
-        ]
+        ],
+        "weight": "1.59"
     },
     {
         "gameId": 288169,
@@ -899,7 +774,8 @@
             "Cooperative Game",
             "Hand Management",
             "Trick-taking"
-        ]
+        ],
+        "weight": "1.67"
     },
     {
         "gameId": 31481,
@@ -934,7 +810,8 @@
             "Team-Based Game",
             "Tile Placement",
             "Track Movement"
-        ]
+        ],
+        "weight": "2.33"
     },
     {
         "gameId": 291457,
@@ -979,7 +856,8 @@
             "Simultaneous Action Selection",
             "Solo / Solitaire Game",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "3.58"
     },
     {
         "gameId": 2655,
@@ -1014,7 +892,8 @@
             "Slide/Push",
             "Three Dimensional Movement",
             "Tile Placement"
-        ]
+        ],
+        "weight": "2.32"
     },
     {
         "gameId": 281259,
@@ -1053,7 +932,8 @@
             "Square Grid",
             "Tile Placement",
             "Turn Order: Stat-Based"
-        ]
+        ],
+        "weight": "2.32"
     },
     {
         "gameId": 254640,
@@ -1083,7 +963,8 @@
         "mechanics": [
             "Communication Limits",
             "Cooperative Game"
-        ]
+        ],
+        "weight": "1.05"
     },
     {
         "gameId": 284378,
@@ -1115,7 +996,8 @@
             "Hand Management",
             "Variable Phase Order",
             "Worker Placement"
-        ]
+        ],
+        "weight": "4.34"
     },
     {
         "gameId": 122515,
@@ -1158,7 +1040,8 @@
             "Variable Set-up",
             "Worker Placement",
             "Worker Placement, Different Worker Types"
-        ]
+        ],
+        "weight": "3.34"
     },
     {
         "gameId": 319966,
@@ -1194,7 +1077,8 @@
             "Team-Based Game",
             "Turn Order: Pass Order",
             "Variable Set-up"
-        ]
+        ],
+        "weight": "2.12"
     },
     {
         "gameId": 129622,
@@ -1226,7 +1110,8 @@
             "Hand Management",
             "Player Elimination",
             "Score-and-Reset Game"
-        ]
+        ],
+        "weight": "1.19"
     },
     {
         "gameId": 248562,
@@ -1235,7 +1120,7 @@
         "image": "https://cf.geekdo-images.com/jgsT5y5qKlOR08CuHG7xfw__original/img/mnPgX4nM_l1JnXFE16dAZjGS8sw=/0x0/filters:format(jpeg)/pic4411189.jpg",
         "thumbnail": "https://cf.geekdo-images.com/jgsT5y5qKlOR08CuHG7xfw__thumb/img/DM78RCe2olPBHUesY9V-GS56gCU=/fit-in/200x150/filters:strip_icc()/pic4411189.jpg",
         "minPlayers": 1,
-        "maxPlayers": 5,
+        "maxPlayers": 2,
         "playingTime": 150,
         "mechanics": [
           "Card Drafting",
@@ -1255,75 +1140,7 @@
         "bggRating": 7.78622,
         "averageRating": 8.94246,
         "rank": -1,
-        "designers": [
-          "Vlaada Chvátil",
-          "Paul Grogan",
-          "Phil Pettifer"
-        ],
-        "publishers": [
-          "WizKids (I)",
-          "Angry Lion Games",
-          "Galápagos Jogos",
-          "Game Harbor",
-          "Giochi Uniti",
-          "Intrafin Games",
-          "Korea Boardgames Co., Ltd.",
-          "Lavka Games",
-          "NECA",
-          "Pegasus Spiele",
-          "Portal Games",
-          "REXhry",
-          "SD Games"
-        ],
-        "artists": [
-          "J. Lonnee",
-          "Chris Raimo",
-          "Milan Vavroň"
-        ],
-        "playerPollResults": [
-          {
-            "numPlayers": 1,
-            "best": 159,
-            "recommended": 30,
-            "notRecommended": 1,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 2,
-            "best": 65,
-            "recommended": 93,
-            "notRecommended": 10,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 3,
-            "best": 9,
-            "recommended": 77,
-            "notRecommended": 53,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 4,
-            "best": 4,
-            "recommended": 22,
-            "notRecommended": 116,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 5,
-            "best": 0,
-            "recommended": 7,
-            "notRecommended": 133,
-            "numPlayersIsAndHigher": false
-          },
-          {
-            "numPlayers": 5,
-            "best": 0,
-            "recommended": 1,
-            "notRecommended": 129,
-            "numPlayersIsAndHigher": true
-          }
-        ]
+        "weight": "4.62"
     },
     {
         "gameId": 285774,
@@ -1358,7 +1175,8 @@
             "Solo / Solitaire Game",
             "Variable Player Powers",
             "Variable Set-up"
-        ]
+        ],
+        "weight": "2.87"
     },
     {
         "gameId": 118,
@@ -1394,7 +1212,8 @@
             "Commodity Speculation",
             "Hand Management",
             "Victory Points as a Resource"
-        ]
+        ],
+        "weight": "2.30"
     },
     {
         "gameId": 167355,
@@ -1433,7 +1252,8 @@
             "Team-Based Game",
             "Traitor Game",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "3.39"
     },
     {
         "gameId": 287084,
@@ -1465,7 +1285,8 @@
             "Betting and Bluffing",
             "Card Play Conflict Resolution",
             "Hand Management"
-        ]
+        ],
+        "weight": "1.62"
     },
     {
         "gameId": 274960,
@@ -1495,7 +1316,8 @@
         "mechanics": [
             "Card Drafting",
             "Set Collection"
-        ]
+        ],
+        "weight": "1.16"
     },
     {
         "gameId": 244521,
@@ -1530,7 +1352,8 @@
             "Market",
             "Push Your Luck",
             "Variable Set-up"
-        ]
+        ],
+        "weight": "1.95"
     },
     {
         "gameId": 217372,
@@ -1565,7 +1388,8 @@
             "Hexagon Grid",
             "Modular Board",
             "Race"
-        ]
+        ],
+        "weight": "1.93"
     },
     {
         "gameId": 279537,
@@ -1598,7 +1422,8 @@
             "End Game Bonuses",
             "Solo / Solitaire Game",
             "Time Track"
-        ]
+        ],
+        "weight": "2.31"
     },
     {
         "gameId": 157969,
@@ -1633,7 +1458,8 @@
             "Negotiation",
             "Role Playing",
             "Set Collection"
-        ]
+        ],
+        "weight": "1.65"
     },
     {
         "gameId": 2511,
@@ -1665,7 +1491,8 @@
             "Narrative Choice / Paragraph",
             "Solo / Solitaire Game",
             "Storytelling"
-        ]
+        ],
+        "weight": "2.68"
     },
     {
         "gameId": 92415,
@@ -1696,7 +1523,8 @@
             "Auction/Bidding",
             "Hand Management",
             "Player Elimination"
-        ]
+        ],
+        "weight": "1.13"
     },
     {
         "gameId": 242302,
@@ -1727,7 +1555,8 @@
             "Card Drafting",
             "Dice Rolling",
             "Random Production"
-        ]
+        ],
+        "weight": "2.12"
     },
     {
         "gameId": 162886,
@@ -1766,7 +1595,8 @@
             "Simultaneous Action Selection",
             "Solo / Solitaire Game",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "4.04"
     },
     {
         "gameId": 223770,
@@ -1798,7 +1628,8 @@
             "Investment",
             "Score-and-Reset Game",
             "Set Collection"
-        ]
+        ],
+        "weight": "1.58"
     },
     {
         "gameId": 242639,
@@ -1834,7 +1665,8 @@
             "Storytelling",
             "Team-Based Game",
             "Variable Player Powers"
-        ]
+        ],
+        "weight": "2.27"
     },
     {
         "gameId": 269210,
@@ -1866,7 +1698,8 @@
             "Drafting",
             "Paper-and-Pencil",
             "Re-rolling and Locking"
-        ]
+        ],
+        "weight": "2.36"
     },
     {
         "gameId": 306735,
@@ -1905,7 +1738,8 @@
             "Variable Set-up",
             "Worker Placement",
             "Worker Placement with Dice Workers"
-        ]
+        ],
+        "weight": "2.45"
     },
     {
         "gameId": 262543,
@@ -1938,7 +1772,8 @@
             "Race",
             "Targeted Clues",
             "Team-Based Game"
-        ]
+        ],
+        "weight": "1.12"
     },
     {
         "gameId": 266192,
@@ -1976,6 +1811,7 @@
             "Set Collection",
             "Solo / Solitaire Game",
             "Turn Order: Progressive"
-        ]
+        ],
+        "weight": "2.44"
     }
 ]
