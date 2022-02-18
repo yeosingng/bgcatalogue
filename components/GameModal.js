@@ -7,59 +7,58 @@ const Content = styled.div`
   flex-direction: column;
   height: 100%;
   width: 100%;
-`
+`;
 
 const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
-`
+`;
 
 const Image = styled.img`
   max-width: 300px;
   max-height: 400px;
   width: auto;
   height: 100%;
-`
+`;
 
 const CloseAnchor = styled.div`
   position: relative;
-`
+`;
 
 const CloseButton = styled.button`
   position: absolute;
   right: 0;
   top: 0;
-`
+`;
 
 const Details = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-`
+`;
 
 const Text = styled.div`
 
-`
+`;
 
 const Description = styled.div`
   padding-bottom: 2rem;
-`
+`;
 
 const GameModal = () => {
   const { selectedGame, setSelectedGame } = useGameContext();
 
-  if (!selectedGame) return <></>
+  if (!selectedGame) return <></>;
 
   let playerCountText = `(${selectedGame.minPlayers} - ${selectedGame.maxPlayers})`;
   if (selectedGame.minPlayers === selectedGame.maxPlayers) {
     playerCountText = selectedGame.minPlayers;
   }
 
-
   return (
     <Modal
       isOpen={!!selectedGame}
-      shouldCloseOnEsc
+      preventScroll
       onRequestClose={() => setSelectedGame(null)}
     >
       <Content>
@@ -87,7 +86,7 @@ const GameModal = () => {
         </Details>
       </Content>
     </Modal>
-  )
-}
+  );
+};
 
 export default GameModal;

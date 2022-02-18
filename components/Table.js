@@ -15,13 +15,13 @@ const TableContainer = styled.div`
   grid-template-columns: ${props => `repeat(${props.numColumns}, 1fr)`};
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
   grid-gap: 1rem;
-`
+`;
 
 const TableSelection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`
+`;
 
 const ItemContainer = styled.div`
   display: flex;
@@ -39,13 +39,13 @@ const ItemImageContainer = styled.div`
 
 const ItemImage = styled.img`
   max-height: 250px;
-`
+`;
 
 const GameTitle = styled.div`
   margin-top: 1rem;
   text-align: center;
   max-width: 200px;
-`
+`;
 
 const Table = ({ collection }) => {
   const { setSelectedGame } = useGameContext();
@@ -75,10 +75,10 @@ const Table = ({ collection }) => {
               </GameTitle>
             </ItemContainer>
           </TableSelection>
-        )
+        );
       })}
     </TableContainer>
-  )
-}
+  );
+};
 
 export default Table;

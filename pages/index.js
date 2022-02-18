@@ -1,5 +1,5 @@
 import fs from 'fs';
-import Head from 'next/head'
+import Head from 'next/head';
 import Table from '../components/Table';
 import Header from '../components/Header';
 import styled from 'styled-components';
@@ -11,7 +11,7 @@ const Container = styled.div`
   height: 100%;
   min-height: 100vh;
   display: flex;
-`
+`;
 
 const Main = styled.main`
   min-height: 100vh;
@@ -21,7 +21,7 @@ const Main = styled.main`
   padding: 0;
   margin: 0;
   flex: 1;
-`
+`;
 
 Modal.setAppElement('#__next');
 
@@ -43,7 +43,7 @@ export default function Home(props) {
         </GameContextProvider>
       </Main>
     </Container>
-  )
+  );
 }
 
 // getStaticProps only runs in the Node side, so it is safe
@@ -55,5 +55,5 @@ export async function getStaticProps() {
     props: {
       collection: JSON.parse(collection),
     }
-  }
+  };
 }
