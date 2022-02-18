@@ -5,7 +5,6 @@ import useWindowDimensions from '../hooks/useWindowDimensions';
 const MOBILE_COLUMN_NUM = 2;
 const TABLET_COLUMN_NUM = 3;
 const DESKTOP_COLUMN_NUM = 4;
-const itemHeight = 200;
 
 const TableContainer = styled.div`
   display: grid;
@@ -15,7 +14,6 @@ const TableContainer = styled.div`
   padding: 1rem;
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
   grid-gap: 1rem;
-
 `
 
 const TableSelection = styled.div`
