@@ -72,6 +72,7 @@ const Table = ({ collection }) => {
 
         return (
           <TableSelection
+            key={game.id}
             rowStart={itemRowStart}
             rowEnd={itemRowEnd}
             columnStart={itemColumnStart}

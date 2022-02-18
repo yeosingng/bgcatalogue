@@ -23,11 +23,10 @@ const Main = styled.main`
 export default function Home(props) {
   const { collection } = props;
 
-
   return (
     <Container>
       <Head>
-        <title>Yeo's BG Catalogue</title>
+        <title>Yeo&apos;s BG Catalogue</title>
         <meta name="description" content="Yeo's BG Catalogue" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

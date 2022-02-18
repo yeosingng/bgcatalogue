@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Title>
-        Yeo's BG Catalogue
+        Yeo&apos;s BG Catalogue
       </Title>
     </HeaderContainer>
   )
