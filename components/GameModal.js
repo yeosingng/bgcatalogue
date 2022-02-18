@@ -70,7 +70,7 @@ const GameModal = () => {
         </CloseAnchor>
 
         <ImageContainer>
-          <Image src={selectedGame.image} />
+          <Image alt='game image' src={selectedGame.image} />
         </ImageContainer>
 
         <Details>
@@ -79,7 +79,7 @@ const GameModal = () => {
           <Text>Playing time: {selectedGame.playingTime} minutes</Text>
           <Text>Complexity: {selectedGame.weight}/5</Text>
           <Text>
-            <a href={`https://boardgamegeek.com/boardgame/${selectedGame.gameId}/`} target='_blank'>
+            <a href={`https://boardgamegeek.com/boardgame/${selectedGame.gameId}/`} target='_blank' rel="noreferrer">
               Bgg link
             </a>
           </Text>
