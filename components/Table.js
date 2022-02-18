@@ -9,11 +9,12 @@ const itemHeight = 200;
 const TableContainer = styled.div`
   display: grid;
   min-height: 100%;
-  height: ${props => `${(props.numRows) * itemHeight}px`};
+  height: 100%;
   width: 100%;
   padding: 1rem;
   grid-template-columns: ${({ isMobile }) => isMobile ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'};
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
+  grid-gap: 1rem;
 `
 
 const TableSelection = styled.div`
@@ -21,6 +22,32 @@ const TableSelection = styled.div`
   grid-column-end: ${props => props.columnEnd};
   grid-row-start: ${props => props.rowStart};
   grid-row-end: ${props => props.rowEnd};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+const ItemContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    opacity: 60%;
+    cursor: pointer;
+  };
+`;
+
+const ItemImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+const ItemImage = styled.img`
+  max-height: 250px;
+`
+
+const GameTitle = styled.div`
+  margin-top: 1rem;
+  text-align: center;
 `
 
 const Table = ({ collection }) => {
@@ -44,9 +71,21 @@ const Table = ({ collection }) => {
         itemColumnEnd = itemColumnStart + 1;
 
         return (
-          <TableSelection rowStart={itemRowStart} rowEnd={itemRowEnd} columnStart={itemColumnStart} columnEnd={itemColumnEnd} >
-            <img src={game.thumbnail} />
-            {game.name}
+          <TableSelection
+            rowStart={itemRowStart}
+            rowEnd={itemRowEnd}
+            columnStart={itemColumnStart}
+            columnEnd={itemColumnEnd}
+          >
+            <ItemContainer>
+              <ItemImageContainer>
+                <ItemImage src={game.thumbnail} />
+              </ItemImageContainer>
+
+              <GameTitle>
+                {game.name}
+              </GameTitle>
+            </ItemContainer>
           </TableSelection>
         )
       })}
