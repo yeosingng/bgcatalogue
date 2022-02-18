@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
 const MOBILE_COLUMN_NUM = 2;
+const TABLET_COLUMN_NUM = 3;
 const DESKTOP_COLUMN_NUM = 4;
 const itemHeight = 200;
 
@@ -12,9 +13,9 @@ const TableContainer = styled.div`
   height: 100%;
   width: 100%;
   padding: 1rem;
-  grid-template-columns: ${({ isMobile }) => isMobile ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'};
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
   grid-gap: 1rem;
+
 `
 
 const TableSelection = styled.div`
@@ -48,16 +49,23 @@ const ItemImage = styled.img`
 const GameTitle = styled.div`
   margin-top: 1rem;
   text-align: center;
+  max-width: 200px;
 `
 
 const Table = ({ collection }) => {
-  const { isMobile } = useWindowDimensions();
+  const { isMobile, isTablet } = useWindowDimensions();
 
-  const numColumns = isMobile ? MOBILE_COLUMN_NUM : DESKTOP_COLUMN_NUM;
+  let numColumns = DESKTOP_COLUMN_NUM;
+  if (isTablet) {
+    numColumns = TABLET_COLUMN_NUM;
+  } else if (isMobile) {
+    numColumns = MOBILE_COLUMN_NUM;
+  }
+
   const numRows = Math.floor(collection.length / numColumns);
 
   return (
-    <TableContainer numRows={numRows} isMobile={isMobile}>
+    <TableContainer numRows={numRows} numColumns={numColumns}>
       {collection.map((game, i) => {
         let itemRowStart;
         let itemRowEnd;
