@@ -238,37 +238,117 @@
         ]
     },
     {
-        "gameId": 153938,
-        "name": "Camel Up",
-        "image": "https://cf.geekdo-images.com/1ph2jVOD1MudR1fK1nkwwA__original/img/73QLoWe-ejV9mijfd7HWZwns51A=/0x0/filters:format(png)/pic2031446.png",
-        "thumbnail": "https://cf.geekdo-images.com/1ph2jVOD1MudR1fK1nkwwA__thumb/img/TVCsLhF3KMZkFs6oLJkS37njE_s=/fit-in/200x150/filters:strip_icc()/pic2031446.png",
-        "minPlayers": 2,
+        "gameId": 260605,
+        "name": "Camel Up (Second Edition)",
+        "description": "In Camel Up, up to eight players bet on five racing camels, trying to suss out which ones will place first and second in a quick race around a pyramid. The earlier you place your bet, the more you can win &mdash; should you guess correctly, of course. Camels don't run neatly, however, sometimes landing on top of another one and being carried toward the finish line. Who's going to run when? That all depends on how the dice come out of the pyramid dice shaker, which releases one die at a time when players pause from their bets long enough to see who's actually moving!&#10;&#10;This 2018 edition of Camel Up features new artwork, a new game board design, a new pyramid design, engraved dice, and new game modes, including crazy rogue camels that start the race running in the opposite direction! You never know how a race will end!&#10;&#10;",
+        "image": "https://cf.geekdo-images.com/pRZrHJNoPQ3gay9EkpuZLw__original/img/VHOeHhfYK3n-wYSP0G9RT26U0uQ=/0x0/filters:format(jpeg)/pic4304741.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/pRZrHJNoPQ3gay9EkpuZLw__thumb/img/e3Kn0hIHVIvWAE9m8IF7icNxw4s=/fit-in/200x150/filters:strip_icc()/pic4304741.jpg",
+        "minPlayers": 3,
         "maxPlayers": 8,
-        "playingTime": 30,
-        "isExpansion": false,
-        "yearPublished": 2014,
-        "bggRating": 0,
-        "averageRating": 7.04122,
-        "rank": 510,
-        "numPlays": 0,
-        "rating": -1,
-        "owned": true,
-        "preOrdered": false,
-        "forTrade": false,
-        "previousOwned": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishList": false,
-        "userComment": "",
-        "description": "In Camel Up, up to eight players bet on five racing camels, trying to suss out which will place first and second in a quick race around a pyramid. The earlier you place your bet, the more you can win &mdash; should you guess correctly, of course. Camels don't run neatly, however, sometimes landing on top of another one and being carried toward the finish line. Who's going to run when? That all depends on how the dice come out of the pyramid dice shaker, which releases one die at a time when players pause from their bets long enough to see who's actually moving!&#10;&#10;",
+        "playingTime": 45,
         "mechanics": [
-            "Betting and Bluffing",
-            "Dice Rolling",
-            "End Game Bonuses",
-            "Roll / Spin and Move",
-            "Track Movement",
-            "Variable Set-up"
+          "Betting and Bluffing",
+          "Dice Rolling",
+          "Roll / Spin and Move",
+          "Track Movement"
+        ],
+        "isExpansion": false,
+        "yearPublished": 2018,
+        "bggRating": 7.13218,
+        "averageRating": 7.64025,
+        "rank": 303,
+        "designers": [
+          "Steffen Bogen"
+        ],
+        "publishers": [
+          "eggertspiele",
+          "Choo Choo Games",
+          "Ediciones MasQueOca",
+          "Galápagos Jogos",
+          "Ghenos Games",
+          "Hobby Japan",
+          "Korea Boardgames Co., Ltd.",
+          "Lucrum Games",
+          "Pegasus Spiele",
+          "Piatnik",
+          "Pretzel Games",
+          "Swan Panasia Co., Ltd.",
+          "Tower Tactic Games",
+          "uplay.it edizioni"
+        ],
+        "artists": [
+          "Chris Quilliams"
+        ],
+        "playerPollResults": [
+          {
+            "numPlayers": 1,
+            "best": 0,
+            "recommended": 0,
+            "notRecommended": 49,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 2,
+            "best": 0,
+            "recommended": 11,
+            "notRecommended": 44,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 3,
+            "best": 1,
+            "recommended": 35,
+            "notRecommended": 21,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 4,
+            "best": 16,
+            "recommended": 49,
+            "notRecommended": 0,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 5,
+            "best": 43,
+            "recommended": 23,
+            "notRecommended": 0,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 6,
+            "best": 37,
+            "recommended": 23,
+            "notRecommended": 1,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 7,
+            "best": 13,
+            "recommended": 31,
+            "notRecommended": 5,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 8,
+            "best": 12,
+            "recommended": 27,
+            "notRecommended": 9,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 8,
+            "best": 1,
+            "recommended": 2,
+            "notRecommended": 31,
+            "numPlayersIsAndHigher": true
+          }
+        ],
+        "expansions": [
+          {
+            "name": "Super Power",
+            "gameId": 293240
+          }
         ]
     },
     {
@@ -615,32 +695,79 @@
         ]
     },
     {
-        "gameId": 278396,
-        "name": "Estates",
-        "image": "https://cf.geekdo-images.com/Op7TFp1ffXC804FgAnkB_A__original/img/zGPW-_LkQ05YyZS0GAGZrlSZ4mc=/0x0/filters:format(jpeg)/pic4701880.jpg",
-        "thumbnail": "https://cf.geekdo-images.com/Op7TFp1ffXC804FgAnkB_A__thumb/img/g--fEV6O8FUf-6Pziv3NRRxy9g8=/fit-in/200x150/filters:strip_icc()/pic4701880.jpg",
+        "gameId": 249381,
+        "name": "The Estates",
+        "description": "The City Council recently approved the zoning map for a new urban development &mdash; The Estates &mdash; featuring high-end infrastructure and a modern atmosphere for its citizens. Soon after, the banks awarded millions of dollars in loans to six real estate investment firms to help develop this new area. The zoning map for The Estates calls for two rows of four buildings each, located between the River and Main Street. The meadows on the other side of the River are to remain a recreational area for the City.&#10;&#10;But, with hopes of larger profits, investors and building tycoons entirely ignore the City Council's demands and begin developing three rows of buildings instead. The Mayor catches wind of the potential for profit and begins planning a new mansion in The Estates, which would double the value of one of the building rows! With some sketchy building permits, investors begin developing buildings on the other side of the River, beyond the designated building zone. However, the City Council takes rigorous steps to put an end to the racketeering with an ultimatum: As soon as the first two rows are completed, the buildings in the uncompleted row will be torn down, resulting in a huge loss for all who invested there. At the end of the day, the investor with the highest-valued buildings will come out on top.&#10;&#10;The players take on the role of investors seeking to make the most money by developing buildings in The Estates. Players will bid for the various building pieces and place them in The Estates to their benefit. All buildings in completed rows score positive points, while all buildings in incomplete rows score negative points. It is possible to have zero completed rows of buildings.&#10;&#10;A game of The Estates lasts around 40 minutes and can be played in several rounds to experience a shifting economy.&#10;&#10;",
+        "image": "https://cf.geekdo-images.com/AvC3AzHo8JlcvgKtQ3PDWA__original/img/bLkTdJ11F1JN8zUU4dPjR0J3_2k=/0x0/filters:format(jpeg)/pic4071903.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/AvC3AzHo8JlcvgKtQ3PDWA__thumb/img/eMsTjGHKNFzWiw7uNiOKDLtYcq4=/fit-in/200x150/filters:strip_icc()/pic4071903.jpg",
         "minPlayers": 2,
-        "maxPlayers": 4,
-        "playingTime": 180,
-        "isExpansion": false,
-        "yearPublished": 1973,
-        "bggRating": 0,
-        "averageRating": 7,
-        "rank": -1,
-        "numPlays": 0,
-        "rating": -1,
-        "owned": true,
-        "preOrdered": false,
-        "forTrade": false,
-        "previousOwned": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishList": false,
-        "userComment": "",
-        "description": "The first player to accomplish the following four conditions wins the game: 1) Has purchased one of the four estates, 2) Does not owe money to the bank, 3) Has $5,000 in play money and 4) Has his playing piece at home on his estate.&#10;&#10;Each player has four plastic pieces of their color. The Home Marker, a large flat piece, is placed over the player's apartment, townhouse or estate to show which is his home. One of the three long pieces is placed on the Salary Record Board, one on the Rent and Salary Board and one on the Home Marker. The Direction Cards are placed on the board face down. Each player is given $500 and someone is designated as the banker. Each player rolls the die and high player starts. Each player in turn selects an apartment or house and places the Home Marker with the long piece atop on it and pays the bank the rent or lease. each player in turn takes the long piece from atop the Home Marker and places it in the yellow circle marked &quot; Downtown and rolls the die. If a 5 or 6 is rolled the player draws a Direction card and follows the instructions which may mean moving the piece to a specific place and paying an amount to the bank. If a 1, 2 or 4 is rolled, the player moves his playing piece in any direction along the marked street one red dot for each count. The objective is to get the playing piece back to the Home Marker to increase salary. Salaries are collected to amass the funds to purchase the estate and liquidate bank debts.&#10;&#10;&mdash;user summary&#10;&#10;",
+        "maxPlayers": 5,
+        "playingTime": 60,
         "mechanics": [
-            "Roll / Spin and Move"
+          "Area Majority / Influence",
+          "Auction/Bidding",
+          "Auction: Once Around",
+          "Closed Economy Auction",
+          "Take That"
+        ],
+        "isExpansion": false,
+        "yearPublished": 2018,
+        "bggRating": 6.76024,
+        "averageRating": 7.46797,
+        "rank": 675,
+        "designers": [
+          "Klaus Zoch"
+        ],
+        "publishers": [
+          "Capstone Games"
+        ],
+        "artists": [
+          "Daan van Paridon",
+          "Thijs van Paridon"
+        ],
+        "playerPollResults": [
+          {
+            "numPlayers": 1,
+            "best": 0,
+            "recommended": 0,
+            "notRecommended": 29,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 2,
+            "best": 0,
+            "recommended": 5,
+            "notRecommended": 28,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 3,
+            "best": 4,
+            "recommended": 25,
+            "notRecommended": 4,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 4,
+            "best": 26,
+            "recommended": 11,
+            "notRecommended": 0,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 5,
+            "best": 8,
+            "recommended": 21,
+            "notRecommended": 8,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 5,
+            "best": 0,
+            "recommended": 0,
+            "notRecommended": 18,
+            "numPlayersIsAndHigher": true
+          }
         ]
     },
     {
@@ -673,43 +800,6 @@
             "Line Drawing",
             "Role Playing",
             "Targeted Clues"
-        ]
-    },
-    {
-        "gameId": 177736,
-        "name": "A Feast for Odin",
-        "image": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__original/img/N1X-0JB1GapFVhl98nP4tNFXMcM=/0x0/filters:format(png)/pic3146943.png",
-        "thumbnail": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__thumb/img/AKxMMz2DTbBrEynhDROla8fdjJ4=/fit-in/200x150/filters:strip_icc()/pic3146943.png",
-        "minPlayers": 1,
-        "maxPlayers": 4,
-        "playingTime": 120,
-        "isExpansion": false,
-        "yearPublished": 2016,
-        "bggRating": 0,
-        "averageRating": 8.20717,
-        "rank": 22,
-        "numPlays": 0,
-        "rating": -1,
-        "owned": true,
-        "preOrdered": false,
-        "forTrade": false,
-        "previousOwned": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishList": false,
-        "userComment": "",
-        "description": "A Feast for Odin is a saga in the form of a board game. You are reliving the cultural achievements, mercantile expeditions, and pillages of those tribes we know as Viking today &mdash; a term that was used quite differently towards the end of the first millennium.&#10;&#10;When the northerners went out for a raid, they used to say they headed out for a viking. Their Scandinavian ancestors, however, were much more than just pirates. They were explorers and founders of states. Leif Eriksson is said to be the first European in America, long before Columbus.&#10;In what is known today as Normandy, the intruders were not called Vikings but Normans. One of them is the famous William the Conqueror who invaded England in 1066. He managed to do what the king of Norway failed to do only a few years prior: conquer the Throne of England. The reason why the people of these times became such strong seafarers is due to their unfortunate agricultural situation. Crop shortfalls caused great distress.&#10;&#10;In this game, you will raid and explore new territories. You will also experience their day-to-day activities: collecting goods to achieve a financially secure position in society. In the end, the player whose possessions bear the greatest value will be declared the winner.&#10;&#10;--gameplay description from @StoryBoardGamer's review:&#10;A Feast for Odin is a points-driven game, with plethora of pathways to victory, with a range of risk balanced against reward. A significant portion of this is your central hall, which has a whopping -86 points of squares and a major part of your game is attempting to cover these up with various tiles. Likewise, long halls and island colonies can also offer large rewards, but they will have penalties of their own.&#10;&#10;Each year follows a familiar pattern of preparation, worker placement, and then meeting the requirements of your feast. The main phase of each year is a worker placement affair. You start with a selection of Vikings, and a large action board with a whopping 61 different options to choose from. Each of these will be arranged from left to right in one of four columns. Each column requires an additional Viking to activate, but they are proportionally more powerful.&#10;&#10;At the end of each round, you will need to fill a feast table with food, alternating between plants and vegetable matter. You will also have a chance to lay the valuable green and blue tiles into your main hall. The configuration of these tiles must follow certain requirements, but your main goal is to both cover up a line of coin icons to increase your income, while otherwise encircling certain printed icons to generate those.&#10;&#10;You will build your engine over time, following an alternating pattern of outward expansion and hunting against development and cultivation. It all comes down to how much you&rsquo;re willing to take on at any one time, and what risks you&rsquo;re willing to set yourself up with for their rewards.&#10;&#10;",
-        "mechanics": [
-            "Automatic Resource Growth",
-            "Dice Rolling",
-            "Grid Coverage",
-            "Income",
-            "Push Your Luck",
-            "Solo / Solitaire Game",
-            "Tile Placement",
-            "Turn Order: Pass Order",
-            "Worker Placement"
         ]
     },
     {
@@ -1139,31 +1229,101 @@
         ]
     },
     {
-        "gameId": 864,
-        "name": "Mage Knight",
-        "image": "https://cf.geekdo-images.com/uE7vNy8iSwY_VbrteAovRQ__original/img/pOQRzUtOzQgd7NYkn1npzkXCs4I=/0x0/filters:format(jpeg)/pic11350.jpg",
-        "thumbnail": "https://cf.geekdo-images.com/uE7vNy8iSwY_VbrteAovRQ__thumb/img/S8Ibgxp4j5qlI6j7Q9QD-xbgrSE=/fit-in/200x150/filters:strip_icc()/pic11350.jpg",
-        "minPlayers": 2,
-        "maxPlayers": 4,
-        "playingTime": 60,
+        "gameId": 248562,
+        "name": "Mage Knight: Ultimate Edition",
+        "description": "Combining elements of RPGs, deck-building, and traditional board games, the Mage Knight Board Game puts you in control of one of four powerful Mage Knights as you explore (and conquer) a corner of the Mage Knight universe under the control of the Atlantean Empire. Build your army, fill your deck with powerful spells and actions, explore caves and dungeons, and eventually conquer powerful cities controlled by this once-great faction! In competitive scenarios, opposing players may be powerful allies, but only one will be able to claim the land as their own. In cooperative scenarios, the players win or lose as a group. Solo rules are also included.&#10;&#10;Mage Knight: Ultimate Edition contains the base game; The Lost Legion, Shades of Tezla, and Krang Character expansions; comprehensive integrated rules text; five new cards; and miniatures with alternate paint jobs.&#10;&#10;",
+        "image": "https://cf.geekdo-images.com/jgsT5y5qKlOR08CuHG7xfw__original/img/mnPgX4nM_l1JnXFE16dAZjGS8sw=/0x0/filters:format(jpeg)/pic4411189.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/jgsT5y5qKlOR08CuHG7xfw__thumb/img/DM78RCe2olPBHUesY9V-GS56gCU=/fit-in/200x150/filters:strip_icc()/pic4411189.jpg",
+        "minPlayers": 1,
+        "maxPlayers": 5,
+        "playingTime": 150,
+        "mechanics": [
+          "Card Drafting",
+          "Cooperative Game",
+          "Deck, Bag, and Pool Building",
+          "Dice Rolling",
+          "Grid Movement",
+          "Hand Management",
+          "Modular Board",
+          "Role Playing",
+          "Solo / Solitaire Game",
+          "Tile Placement",
+          "Variable Player Powers"
+        ],
         "isExpansion": false,
-        "yearPublished": 2000,
-        "bggRating": 0,
-        "averageRating": 6.16338,
-        "rank": 4895,
-        "numPlays": 0,
-        "rating": -1,
-        "owned": true,
-        "preOrdered": false,
-        "forTrade": false,
-        "previousOwned": false,
-        "want": false,
-        "wantToPlay": false,
-        "wantToBuy": false,
-        "wishList": false,
-        "userComment": "",
-        "description": "WizKids' first game, Mage Knight cleverly applies the CCG concept to miniatures; a &quot;Starter Pack&quot; contains 10 random pre-painted, plastic miniatures, while &quot;Booster Packs&quot; contain 5. Figures' stats are kept track of via dials on their bases, which change depending on how much damage they've taken.&#10;&#10;As in most miniatures games, players each create an army with the same number of points (with each miniature having a different point value), then take turns moving and attacking until all of the opponent's forces are dead or captured, the opponent withdraws, or your pre-determined time limit expires.&#10;&#10;The same figures could be used in two other games:&#10;&#10;    Mage Knight Conquest&#10;    Mage Knight Dungeons&#10;&#10;&#10;&#10;&#10;Mage Knight 2.0&#10;&#10;Mage Knight 2.0 changed many rules which overhauled or expanded, they introduced new strategic possibilities to the game, including capabilities to customize Unique warriors and battles via styrene cards called Items, Domains, and Constructed Terrain.&#10;&#10;Later expansions introduced more options via Spellbooks, Spells, and Adventuring Companies.&#10;&#10;It was eventually counted as a new game since the old figures were ruled obsolete for all tournaments that utilized the Mage Knight 2.0 format.&#10;&#10;The two &quot;versions&quot; can be distinguished by their logos; the original Mage Knight sets feature a straight short sword through the logo while &quot;2.0&quot; and its subsequent expansions have a curved scimitar.&#10;&#10;",
-        "mechanics": []
+        "yearPublished": 2018,
+        "bggRating": 7.78622,
+        "averageRating": 8.94246,
+        "rank": -1,
+        "designers": [
+          "Vlaada Chvátil",
+          "Paul Grogan",
+          "Phil Pettifer"
+        ],
+        "publishers": [
+          "WizKids (I)",
+          "Angry Lion Games",
+          "Galápagos Jogos",
+          "Game Harbor",
+          "Giochi Uniti",
+          "Intrafin Games",
+          "Korea Boardgames Co., Ltd.",
+          "Lavka Games",
+          "NECA",
+          "Pegasus Spiele",
+          "Portal Games",
+          "REXhry",
+          "SD Games"
+        ],
+        "artists": [
+          "J. Lonnee",
+          "Chris Raimo",
+          "Milan Vavroň"
+        ],
+        "playerPollResults": [
+          {
+            "numPlayers": 1,
+            "best": 159,
+            "recommended": 30,
+            "notRecommended": 1,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 2,
+            "best": 65,
+            "recommended": 93,
+            "notRecommended": 10,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 3,
+            "best": 9,
+            "recommended": 77,
+            "notRecommended": 53,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 4,
+            "best": 4,
+            "recommended": 22,
+            "notRecommended": 116,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 5,
+            "best": 0,
+            "recommended": 7,
+            "notRecommended": 133,
+            "numPlayersIsAndHigher": false
+          },
+          {
+            "numPlayers": 5,
+            "best": 0,
+            "recommended": 1,
+            "notRecommended": 129,
+            "numPlayersIsAndHigher": true
+          }
+        ]
     },
     {
         "gameId": 285774,
