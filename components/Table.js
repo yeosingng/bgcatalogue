@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import useWindowDimensions from '../hooks/useWindowDimensions';
+import useWindowDimensions, { MOBILE_BREAKPOINT, TABLET_BREAKPOINT } from '../hooks/useWindowDimensions';
 import { useGameContext } from '../context/GameContext';
 
 const MOBILE_COLUMN_NUM = 2;
@@ -12,9 +12,14 @@ const TableContainer = styled.div`
   height: 100%;
   width: 100%;
   padding: 1rem;
-  grid-template-columns: ${props => `repeat(${props.numColumns}, 1fr)`};
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
-  grid-gap: 1rem;
+  @media (max-width: ${TABLET_BREAKPOINT}px) {
+    grid-template-columns: repeat(3, 1fr);
+  };
+  @media (max-width: ${MOBILE_BREAKPOINT}px) {
+    grid-template-columns: repeat(2, 1fr);
+  };
 `;
 
 const TableSelection = styled.div`
@@ -61,7 +66,7 @@ const Table = ({ collection }) => {
   const numRows = Math.floor(collection.length / numColumns);
 
   return (
-    <TableContainer numRows={numRows} numColumns={numColumns}>
+    <TableContainer numColumns={numColumns} numRows={numRows}>
       {collection.map((game, i) => {
         return (
           <TableSelection key={i} onClick={() => setSelectedGame(game)}>

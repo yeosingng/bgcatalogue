@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const MOBILE_BREAKPOINT = 600;
-const TABLET_BREAKPOINT = 768;
+export const MOBILE_BREAKPOINT = 630;
+export const TABLET_BREAKPOINT = 800;
 
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;
