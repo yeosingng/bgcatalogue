@@ -314,40 +314,6 @@
         "weight": "1.2757"
     },
     {
-        "id": "39463",
-        "thumbnail": "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__thumb/img/gE--xqnuor4bft2J361zxJJGCjM=/fit-in/200x150/filters:strip_icc()/pic1521633.jpg",
-        "image": "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__original/img/c4ZrfOtpp6tDHLyMsKecc2ne370=/0x0/filters:format(jpeg)/pic1521633.jpg",
-        "description": "Build a galactic empire...&#10;&#10;In the depths of space, the alien races of the Cosmos vie with each other for control of the universe. Alliances form and shift from moment to moment, while cataclysmic battles send starships screaming into the warp.&#10;&#10;This classic game of alien politics returns from the warp once more!&#10;&#10;In Cosmic Encounter, each player becomes the leader of one of dozens of alien races, each with its own unique power. On a player's turn, he or she becomes the offense. The offense encounters another player on a planet by moving a group of his or her ships through the hyperspace gate to that planet. Both sides can invite allies and play cards to try and tip the encounter in their favor.&#10;&#10;The object of the game is to establish colonies in other players' planetary systems. The winner(s) are the first player(s) to have five colonies on any planets outside his or her home system. These colonies may all be in one system or scattered over multiple systems. The players must use force, cunning, and diplomacy to ensure their victory. And, because alliances are a key part of the game, multiple players can win together!&#10;&#10;",
-        "name": "Cosmic Encounter",
-        "yearPublished": "2008",
-        "minPlayers": "3",
-        "maxPlayers": "5",
-        "minPlayingTime": "60",
-        "maxplaytime": "120",
-        "categories": [
-            "Bluffing",
-            "Negotiation",
-            "Science Fiction",
-            "Space Exploration"
-        ],
-        "mechanics": [
-            "Alliances",
-            "Card Play Conflict Resolution",
-            "Hand Management",
-            "Interrupts",
-            "Negotiation",
-            "Prisoner's Dilemma",
-            "Race",
-            "Simultaneous Action Selection",
-            "Take That",
-            "Trading",
-            "Variable Player Powers"
-        ],
-        "rating": "7.53854",
-        "rank": "162",
-        "weight": "2.5772"
-    },
-    {
         "id": "313010",
         "thumbnail": "https://cf.geekdo-images.com/-pnk2c0HTQQrhqRjjG835Q__thumb/img/GNv4-bHiFZLXPoyT7q8BW_Q5omo=/fit-in/200x150/filters:strip_icc()/pic4243113.jpg",
         "image": "https://cf.geekdo-images.com/-pnk2c0HTQQrhqRjjG835Q__original/img/BMYXX1Q0euiqYuz0WlxkAAcaxD0=/0x0/filters:format(jpeg)/pic4243113.jpg",
@@ -406,28 +372,6 @@
         "rating": "7.95586",
         "rank": "45",
         "weight": "1.9867"
-    },
-    {
-        "id": "521",
-        "thumbnail": "https://cf.geekdo-images.com/7ejbxsn-UtLl3ehamuAEdw__thumb/img/AX0pNTuAzpUfxlvtwirM6zAK4ws=/fit-in/200x150/filters:strip_icc()/pic79413.jpg",
-        "image": "https://cf.geekdo-images.com/7ejbxsn-UtLl3ehamuAEdw__original/img/HJOZG6y87_skppfIqX-voRlhNxE=/0x0/filters:format(jpeg)/pic79413.jpg",
-        "description": "Crokinole is a dexterity traditional game.&#10;&#10;Crokinole is played on a circular wooden board, with wooden circular disks as playing pieces.&#10;&#10;Players take turns shooting disks across the circular wooden board by flicking the disks with their fingers.  Players try to land their disks in scoring regions on the board, with the highest scoring area the recessed hole in the very center of the board.  Each round, each player/side alternately shoots a set number of disks (usually 12 or 8), shooting one disk each turn.&#10;&#10;As a traditional game, there are often many variations played, but the following method is based on the National Crokinole Association's rules which also govern the World Crokinole Championship.&#10;&#10;Players must position their disk on the start of each of their turns in their quadrant in front of them, touching the outer scoring ring boundary.&#10;&#10;If there are no opponent's disks on the board, they must aim for the center of the board.&#10;&#10;If there is an opponent's disk on the board, they must aim and hit an opponent's piece first, either directly, or by a carrom shot.&#10;&#10;The center recessed hole is worth 20 points, and disks are removed and scored at the end of the round if they land in the center hole.&#10;&#10;Disks that are outside the outer scoring ring at the end of each shot, or are touching the outer scoring ring at the end of each shot, are removed from play for the round.&#10;&#10;Scoring is by cancellation scoring (e.g. Player/Side One scores 250, and Player/Side Two scores 225, Player/Side One scores 25.)&#10;&#10;It is usually played as a two-player game or as a four-player game with partners.&#10;&#10;Play is to a set score, usually the first player/side to 100.&#10;&#10;Alternately, play is set at &quot;Match Scoring&quot; where the winner of each round scores 2 points, and if a tie, each player scores 1 point. A &quot;game&quot; is usually played to four rounds, with the winner of each &quot;game&quot; being the one with the most points. The numbers of &quot;games&quot; in a match is set by the tournament.&#10;&#10;The World Crokinole Championship uses &quot;Match Scoring.&quot;&#10;&#10;",
-        "name": "Crokinole",
-        "yearPublished": "1876",
-        "minPlayers": "2",
-        "maxPlayers": "4",
-        "minPlayingTime": "30",
-        "maxplaytime": "30",
-        "categories": [
-            "Action / Dexterity"
-        ],
-        "mechanics": [
-            "Flicking",
-            "Team-Based Game"
-        ],
-        "rating": "7.95296",
-        "rank": "62",
-        "weight": "1.2508"
     },
     {
         "id": "246784",
@@ -621,38 +565,6 @@
         "rating": "7.16009",
         "rank": "667",
         "weight": "1.1456"
-    },
-    {
-        "id": "177736",
-        "thumbnail": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__thumb/img/AKxMMz2DTbBrEynhDROla8fdjJ4=/fit-in/200x150/filters:strip_icc()/pic3146943.png",
-        "image": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__original/img/N1X-0JB1GapFVhl98nP4tNFXMcM=/0x0/filters:format(png)/pic3146943.png",
-        "description": "A Feast for Odin is a saga in the form of a board game. You are reliving the cultural achievements, mercantile expeditions, and pillages of those tribes we know as Viking today &mdash; a term that was used quite differently towards the end of the first millennium.&#10;&#10;When the northerners went out for a raid, they used to say they headed out for a viking. Their Scandinavian ancestors, however, were much more than just pirates. They were explorers and founders of states. Leif Eriksson is said to be the first European in America, long before Columbus.&#10;In what is known today as Normandy, the intruders were not called Vikings but Normans. One of them is the famous William the Conqueror who invaded England in 1066. He managed to do what the king of Norway failed to do only a few years prior: conquer the Throne of England. The reason why the people of these times became such strong seafarers is due to their unfortunate agricultural situation. Crop shortfalls caused great distress.&#10;&#10;In this game, you will raid and explore new territories. You will also experience their day-to-day activities: collecting goods to achieve a financially secure position in society. In the end, the player whose possessions bear the greatest value will be declared the winner.&#10;&#10;--gameplay description from @StoryBoardGamer's review:&#10;A Feast for Odin is a points-driven game, with plethora of pathways to victory, with a range of risk balanced against reward. A significant portion of this is your central hall, which has a whopping -86 points of squares and a major part of your game is attempting to cover these up with various tiles. Likewise, long halls and island colonies can also offer large rewards, but they will have penalties of their own.&#10;&#10;Each year follows a familiar pattern of preparation, worker placement, and then meeting the requirements of your feast. The main phase of each year is a worker placement affair. You start with a selection of Vikings, and a large action board with a whopping 61 different options to choose from. Each of these will be arranged from left to right in one of four columns. Each column requires an additional Viking to activate, but they are proportionally more powerful.&#10;&#10;At the end of each round, you will need to fill a feast table with food, alternating between plants and vegetable matter. You will also have a chance to lay the valuable green and blue tiles into your main hall. The configuration of these tiles must follow certain requirements, but your main goal is to both cover up a line of coin icons to increase your income, while otherwise encircling certain printed icons to generate those.&#10;&#10;You will build your engine over time, following an alternating pattern of outward expansion and hunting against development and cultivation. It all comes down to how much you&rsquo;re willing to take on at any one time, and what risks you&rsquo;re willing to set yourself up with for their rewards.&#10;&#10;",
-        "name": "A Feast for Odin",
-        "yearPublished": "2016",
-        "minPlayers": "1",
-        "maxPlayers": "4",
-        "minPlayingTime": "30",
-        "maxplaytime": "120",
-        "categories": [
-            "Economic",
-            "Industry / Manufacturing",
-            "Medieval",
-            "Puzzle"
-        ],
-        "mechanics": [
-            "Automatic Resource Growth",
-            "Dice Rolling",
-            "Grid Coverage",
-            "Income",
-            "Push Your Luck",
-            "Solo / Solitaire Game",
-            "Tile Placement",
-            "Turn Order: Pass Order",
-            "Worker Placement"
-        ],
-        "rating": "8.20713",
-        "rank": "22",
-        "weight": "3.8497"
     },
     {
         "id": "177736",
