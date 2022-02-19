@@ -12,6 +12,8 @@ const TableContainer = styled.div`
   height: 100%;
   width: 100%;
   padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: ${props => `repeat(${props.numRows}, 1fr)`};
   @media (max-width: ${TABLET_BREAKPOINT}px) {

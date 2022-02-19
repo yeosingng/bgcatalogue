@@ -23,6 +23,10 @@ const Main = styled.main`
   flex: 1;
 `;
 
+const Footer = styled.footer`
+  padding: 16px;
+`;
+
 Modal.setAppElement('#__next');
 
 export default function Home(props) {
@@ -41,6 +45,10 @@ export default function Home(props) {
           <Table collection={collection} />
           <GameModal />
         </GameContextProvider>
+
+        <Footer>
+          Data provided by BoardGameGeek
+        </Footer>
       </Main>
     </Container>
   );
