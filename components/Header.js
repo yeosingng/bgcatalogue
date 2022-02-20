@@ -1,5 +1,18 @@
 import styled from 'styled-components';
 
+const Header = () => {
+  return (
+    <HeaderContainer>
+      <TitleContainer>
+        <Logo src='/cards.svg' />
+        <Title>
+          Yeo's BGs
+        </Title>
+      </TitleContainer>
+    </HeaderContainer>
+  );
+};
+
 const HeaderContainer = styled.header`
   background-color: #ff9924;
   width: 100%;
@@ -24,18 +37,5 @@ const Title = styled.h1`
 const Logo = styled.img`
   max-height: 50px;
 `;
-
-const Header = () => {
-  return (
-    <HeaderContainer>
-      <TitleContainer>
-        <Logo src='/cards.svg' />
-        <Title>
-          BG Catalogue
-        </Title>
-      </TitleContainer>
-    </HeaderContainer>
-  );
-};
 
 export default Header;

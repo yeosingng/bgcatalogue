@@ -34,9 +34,12 @@ export default function Home(props) {
   return (
     <Container>
       <Head>
-        <title>Yeo&apos;s BG Catalogue</title>
+        <title>Yeo&apos;s BGs</title>
         <meta name="description" content="Yeo's BG Catalogue" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
       </Head>
 
       <Main>
